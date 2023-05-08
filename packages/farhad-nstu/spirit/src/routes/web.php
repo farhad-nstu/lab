@@ -1,6 +1,6 @@
 <?php
 
-use FarhadNstu\Spirit\Controllers;
+namespace FarhadNstu\Spirit;
 use Illuminate\Support\Facades\Route;
 
-Route::get('spirit', SpiritController::class);
+Route::get('/spirit', [Controllers\SpiritController::class, '__invoke']);

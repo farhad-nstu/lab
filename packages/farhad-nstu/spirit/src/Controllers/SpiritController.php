@@ -8,6 +8,7 @@ class SpiritController
 {
     public function __invoke(Spirit $spirit) {
         $quote = $spirit->justDoIt();
-        return $quote;
+        // return $quote;
+        return view('spirit::index', compact('quote'));
     }
 }
