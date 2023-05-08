@@ -1,0 +1,19 @@
+{
+    "name": "farhad-nstu/spirit",
+    "description": "my own package",
+    "type": "metapackage",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FarhadNstu\\Spirit\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "farhad-nstu",
+        "email": "amfarhad33@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
